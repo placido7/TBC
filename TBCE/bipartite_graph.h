@@ -40,15 +40,15 @@ public:
     void Initialize();
 
     vector<TEdge> Wedge(TEdge e,long delta);
-    //寻找V型楔子
+    
     std::unique_ptr<long[]> Wedge2Motif(TEdge e1,TEdge e2,long delta);
 
     unordered_map<long,vector<TEdge>> cross_top_node(TEdge edge1,TEdge edge2,long delta);
-    //上层顶点的共同邻点
+    
 
     std::unique_ptr<long[]> Motif(TEdge e,long delta);
 
-    ~TGraph()= default;;
+    ~TGraph()= default;
 
 
 };
