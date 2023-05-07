@@ -4,7 +4,7 @@
 
 All algorithms were implemented in C++14 compiled by GCC v9.4, and ran on a single thread.
 
-### For Linux
+#### For Linux
 
 Here is an example of how to use the code:
 ```
