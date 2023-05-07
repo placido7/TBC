@@ -25,6 +25,7 @@ TBC-E: Please input five parameters: input file, output file, delta, edge sampli
 
 TBC-E: Please input five parameters: input file, output file, delta, node sampling rate P
 
-TBC-I: Please input five parameters: input file, output file, delta, interval multiplier C,number of samples s
+TBC-I: Please input five parameters: input file, output file, delta, interval multiplier C,
+number of samples s
 
 
