@@ -95,8 +95,8 @@ std::unique_ptr<long[]> TGraph::Wedge2Motif(TEdge e1, TEdge e2, long delta) {
                     rete2.emplace_back(*it1);
                 }
             }
-            sort(rete1.begin(),rete1.end());//
-            sort(rete2.begin(),rete2.end());//
+            sort(rete1.begin(),rete1.end());
+            sort(rete2.begin(),rete2.end());
             for(auto it1=rete1.begin();it1!=rete1.end();it1++)
             {
 
@@ -117,8 +117,6 @@ std::unique_ptr<long[]> TGraph::Wedge2Motif(TEdge e1, TEdge e2, long delta) {
                     sort(b, b + 4);
                     if(unique(b,b+4)!=b+4)
                     {
-                        // cout<<"error"<<" "<<b[0]<<" "<<b[1]<<" "<<b[2]<<" "<<b[3];
-                        // cout<<"same"<<endl;
                         continue;
                     }
                     if (b[3] - b[0] > delta) {
