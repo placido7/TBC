@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
     }
     out.close();
     int found = infile.find_last_of("/");
-    string s(infile.substr(found + 1, 5));
+    string s(infile.substr(found + 1, 20));
     cout << "prefile " << s << endl;
 
 
