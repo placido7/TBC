@@ -50,7 +50,7 @@ public:
 
     int binarySearch(int index,double timeinterval);
 
-    ~TGraph()= default;;
+    ~TGraph()= default;
 
 
 };
