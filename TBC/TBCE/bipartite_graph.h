@@ -45,7 +45,6 @@ public:
 
     unordered_map<long,vector<TEdge>> cross_top_node(TEdge edge1,TEdge edge2,long delta);
     
-
     std::unique_ptr<long[]> Motif(TEdge e,long delta);
 
     ~TGraph()= default;
