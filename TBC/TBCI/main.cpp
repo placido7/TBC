@@ -11,9 +11,8 @@ using namespace std;
 //====================================================get_wall_time====================================================
 //
 double get_wall_time(){
-    struct timeval time;
+    struct timeval time{};
     if (gettimeofday(&time,nullptr)){
-        //  Handle error
         return 0;
     }
     return (double)time.tv_sec + (double)time.tv_usec * .000001;
@@ -77,10 +76,6 @@ int main(int argc,char **argv) {
 //
 //====================================================sampling====================================================
 //
-//====================================================sampling====================================================
-//
-
-
     double timeinterval =C*delta;
     mt19937 rng(std::random_device{}());
     out.open(outfile.c_str(), ios::app);
@@ -135,9 +130,7 @@ int main(int argc,char **argv) {
     out.close();
 
 }
-//
-//====================================================count====================================================
-//
+
 
 
 
