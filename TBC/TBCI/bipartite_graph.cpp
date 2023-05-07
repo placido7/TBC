@@ -88,8 +88,8 @@ std::unique_ptr<double[]> TGraph::Wedge2Motif(TEdge e1, TEdge e2, long delta,dou
                     rete2.emplace_back(*it1);
                 }
             }
-            sort(rete1.begin(),rete1.end());//
-            sort(rete2.begin(),rete2.end());//
+            sort(rete1.begin(),rete1.end());
+            sort(rete2.begin(),rete2.end());
             for(auto it1=rete1.begin();it1!=rete1.end();it1++)
             {
 
