@@ -1,0 +1,3 @@
+/home/ubuntu/TBCI/build/CMakeFiles/TBCI.dir
+/home/ubuntu/TBCI/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/TBCI/build/CMakeFiles/rebuild_cache.dir

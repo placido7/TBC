@@ -132,9 +132,12 @@ int main(int argc,char **argv) {
             {
                 out<<endl;
             }
-        }
-    }
-    out.close();
+         }
+
+     }
+     out.close();
+    
+
 
 }
 

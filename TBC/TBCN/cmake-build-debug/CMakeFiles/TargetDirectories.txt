@@ -1,0 +1,3 @@
+D:/github/TBC/TBC/TBC/TBC/TBCN/cmake-build-debug/CMakeFiles/TBCN.dir
+D:/github/TBC/TBC/TBC/TBC/TBCN/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/github/TBC/TBC/TBC/TBC/TBCN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
