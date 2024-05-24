@@ -15,7 +15,7 @@ cmake ..
 
 make
 
-# Run all algorithms TBC-E, TBC-N, TBC-I
+# Run all algorithms TBC-E
 
 # Example
 ./TBCE ../../datasets/Linux.txt  ../out.txt 86400 0.01
@@ -23,9 +23,5 @@ make
 # Parameters
 TBC-E: Please input five parameters: input file, output file, delta, edge sampling rate P
 
-TBC-E: Please input five parameters: input file, output file, delta, node sampling rate P
-
-TBC-I: Please input five parameters: input file, output file, delta, interval multiplier C,
-number of samples s
 
 
